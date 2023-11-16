@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header {
+    background-color: gray;
+    color: red;
+}
+i{
+    margin-left: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color:rgb(187, 173, 173);
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    border: 2px solid rgb(56, 52, 52);
+    border-radius: 10px;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color:rgb(143, 130, 130);
+}
+
+footer{
+    background-color: gray;
+}
+
+ul{
+    color: red;
+}
